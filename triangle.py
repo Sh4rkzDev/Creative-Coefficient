@@ -2,12 +2,11 @@ def triangle(row: str) -> str:
     '''
     Returns the color resulting from the combinations of the given row.
     '''
-    next_row = ""
     while len(row) > 1:
+        next_row = ""
         for idx in range(len(row)-1):
             next_row += get_color(row[idx], row[idx+1])
         row = next_row
-        next_row = ""
     return row
 
 def get_color(a: str, b:str) -> str:
