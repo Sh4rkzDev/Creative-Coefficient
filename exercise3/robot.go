@@ -1,4 +1,4 @@
-package main
+package exercise3
 
 // Returns the command to be executed
 func Solve(clawPos int, boxes []int, boxInClaw int) Command {

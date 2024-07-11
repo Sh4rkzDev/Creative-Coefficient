@@ -1,6 +1,6 @@
 # Creative Coefficient
 
-## Technical challenge
+## Technical challenge - Lucas Garcia Campos
 
 ### Exercise 1
 
@@ -17,3 +17,21 @@ All of these requirements must be accomplished by the user to be able to registe
 #### Assumptions
 
 * The *reCAPTCHA* API is available.
+
+### Exercise 2
+
+Made in branch *feature-ex2*. The pull request is open as requested.
+
+### Exercise 3
+
+Made in branch *feature-ex3* and then merged into *development*.
+
+### Exercise 4
+
+```sql
+SELECT page_id FROM pages
+LEFT JOIN page_likes 
+    ON pages.page_id = page_likes.page_id
+WHERE liked_date IS NULL
+ORDER BY page_id ASC;
+```

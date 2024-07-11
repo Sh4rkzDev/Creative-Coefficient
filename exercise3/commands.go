@@ -1,4 +1,4 @@
-package main
+package exercise3
 
 type Command func()
 
